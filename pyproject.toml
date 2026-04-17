@@ -1,6 +1,6 @@
 [project]
 name = "haver-mcp-server"
-version = "0.4.0"
+version = "0.5.0"
 description = "MCP server for Haver Analytics: token-efficient series discovery and data fetching across 138 databases"
 readme = "README.md"
 requires-python = ">=3.11"

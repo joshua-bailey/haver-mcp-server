@@ -75,7 +75,6 @@ release, append `@<tag>` to the git URL, e.g.:
 | Variable | Required? | Purpose |
 |----------|-----------|---------|
 | `HAVER_API_KEY` | **Yes** | Your Haver Analytics API key. |
-| `HAVER_METADATA_DB` | No | Absolute path to a prebuilt SQLite metadata DB with `databases` and `series` tables (and an optional `series_fts` FTS5 index) for the 21 US databases. If set and the file exists, keyword search for US databases is resolved locally without API calls. If unset or missing, all queries go through the Haver REST API. Leave unset for the standard setup. |
 
 ## Using it
 
