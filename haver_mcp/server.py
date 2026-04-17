@@ -1,8 +1,7 @@
 """Haver Analytics MCP Server.
 
 Token-efficient tools for discovering and fetching data from Haver Analytics
-across all 138 databases (US + international). All queries route through
-the Haver REST API; no local cache is required.
+across all 138 databases (US + international) via the Haver REST API.
 """
 
 import fnmatch

@@ -67,7 +67,7 @@ Same JSON snippet, placed under `mcpServers` in:
 release, append `@<tag>` to the git URL, e.g.:
 
 ```
-"git+https://github.com/joshua-bailey/haver-mcp-server.git@v0.4.0"
+"git+https://github.com/joshua-bailey/haver-mcp-server.git@v0.5.0"
 ```
 
 ## Environment variables
