@@ -1,0 +1,30 @@
+[project]
+name = "haver-mcp-server"
+version = "0.4.0"
+description = "MCP server for Haver Analytics: token-efficient series discovery and data fetching across 138 databases"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Joshua Bailey" },
+]
+keywords = ["mcp", "haver", "economic-data", "claude", "llm"]
+dependencies = [
+    "mcp>=1.0.0",
+    "haver-api>=0.8.0",
+]
+
+[project.scripts]
+haver-mcp-server = "haver_mcp.server:main"
+
+[project.urls]
+Homepage = "https://github.com/joshua-bailey/haver-mcp-server"
+Repository = "https://github.com/joshua-bailey/haver-mcp-server"
+Issues = "https://github.com/joshua-bailey/haver-mcp-server/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["haver_mcp*"]
