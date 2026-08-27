@@ -1,6 +1,6 @@
 [project]
 name = "haver-mcp-server"
-version = "0.5.0"
+version = "0.5.1"
 description = "MCP server for Haver Analytics: token-efficient series discovery and data fetching across 138 databases"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -10,7 +10,7 @@ authors = [
 ]
 keywords = ["mcp", "haver", "economic-data", "claude", "llm"]
 dependencies = [
-    "mcp>=1.0.0",
+    "mcp>=1.0.0,<2",
     "haver-api>=0.8.0",
 ]
 
